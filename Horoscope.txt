@@ -1,4 +1,11 @@
-from IPython.display import clear_output
+from IPython.display import clear_output  
+
+#this is the module form Jupyter notebook to clear the screen
+# if you are not using notebook then you can use this line of code
+# import os
+#os.system('cls')
+
+
 def greeting():
     
     print('\nGood Morning!!')
